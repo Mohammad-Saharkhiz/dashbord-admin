@@ -1,7 +1,9 @@
 import React from 'react'
 import routes from './routes'
 import { useRoutes } from 'react-router-dom'
-
+import Topbar from './components/topbar/Topbar'
+import Sidebar from './components/sidebar/Sidebar'
+import "./App.css"
 
 
 
@@ -11,7 +13,11 @@ function App(props) {
 
   return (
     <>
-        {router}
+        <Topbar />
+        <div className="container">
+          <Sidebar />
+          {router}
+        </div>
     </>
   )
 }

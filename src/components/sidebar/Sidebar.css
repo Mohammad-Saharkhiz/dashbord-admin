@@ -1,0 +1,44 @@
+.side-bar{
+    flex: 1;
+    top: 50px;
+    height: calc(100vh - 50px);
+    position: fixed;
+    background-color: rgb(251, 251, 255);
+}
+
+.side-bar__wrapper{
+    color: #555;
+    padding: 20px;  
+}
+
+.side-bar__menu{
+    margin-bottom: 10px;
+}
+
+.side-bar__title{
+    font-size: 14px;
+    color: rgb(187, 186, 186);
+}
+
+.side-bar__list{
+    list-style: none;
+    padding: 5px;
+}
+
+.side-bar__list__item{
+    padding: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    border-radius: 10px;
+    transition: all 150ms ease-in;
+}
+
+/* .style-side-bar-icone{
+
+} */
+
+.side-bar__list__item:hover, .active{
+    background-color: rgb(240, 240, 255 );
+}
