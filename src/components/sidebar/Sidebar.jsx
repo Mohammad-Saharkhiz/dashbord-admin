@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import "./Sidebar.css"
 import LineStyleIcon from '@mui/icons-material/LineStyle';
 import TimelineIcon from '@mui/icons-material/Timeline';
@@ -22,10 +23,12 @@ export default function Sidebar(props) {
                 <div className="side-bar__menu">
                     <h3 className="side-bar__title">Dashboard</h3>
                     <div className="side-bar__list">
-                        <li className="side-bar__list__item active">
-                            <LineStyleIcon className="style-side-bar-icone"/>
-                            Home
-                        </li>
+                        <Link to='/' className="link">
+                            <li className="side-bar__list__item active">
+                                <LineStyleIcon className="style-side-bar-icone"/>
+                                Home
+                            </li>
+                        </Link>
                         <li className="side-bar__list__item">
                             <TimelineIcon className="style-side-bar-icone"/>
                             Analytics
@@ -39,18 +42,24 @@ export default function Sidebar(props) {
                 <div className="side-bar__menu">
                     <h3 className="side-bar__title">Quick Menu</h3>
                     <div className="side-bar__list">
+                        <Link to='/users' className="link">
                         <li className="side-bar__list__item">
                             <PersonOutlineIcon className="style-side-bar-icone"/>
                             User
                         </li>
+                        </Link>
+                        <Link to='/newUser' className="link">
                         <li className="side-bar__list__item">
                             <PersonOutlineIcon className="style-side-bar-icone"/>
                             New User
                         </li>
+                        </Link>
+                        <Link to='/products' className="link">
                         <li className="side-bar__list__item">
                             <StorefrontIcon className="style-side-bar-icone"/>
                             Products
                         </li>
+                        </Link>
                         <li className="side-bar__list__item">
                             <AttachMoneyIcon className="style-side-bar-icone"/>
                             Transaction
