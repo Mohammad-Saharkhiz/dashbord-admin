@@ -1,0 +1,54 @@
+.features{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.features-item{
+    flex: 1;
+    margin: 0 20px;
+    padding: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.feature__title{
+    font-size: 20px;
+}
+
+.feature__container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.feature__money{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.feature__rate{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.feature__rate__number{
+
+}
+
+.arrow{
+    font-size: 24px;
+    color: green;
+}
+
+.negative{
+    color: red;
+}
+
+.feature__sub{
+
+}
