@@ -81,4 +81,39 @@ const transActions = [
     },
 ]
 
-export { xAxisData, newMembers, transActions }
+const userList = [
+    {
+        id: 1,
+        userName: "Mohammad Saharkhiz",
+        avatar: "./ben-duchac-3fJOXw1RbPo-unsplash.jpg",
+        status: "active",
+        transactions: "$110",
+        email: "saharkhizm448@gmail.com"
+    },
+    {
+        id: 2,
+        userName: "Zahra Moslemi",
+        avatar: "./ben-duchac-3fJOXw1RbPo-unsplash.jpg",
+        status: "active",
+        transactions: "$50",
+        email: "sahar2014kh@gmail.com"
+    },
+    {
+        id: 3,
+        userName: "Mohammad Reza Chapardar",
+        avatar: "./ben-duchac-3fJOXw1RbPo-unsplash.jpg",
+        status: "active",
+        transactions: "$810",
+        email: "chapar15nd@gmail.com"
+    },
+    {
+        id: 4,
+        userName: "Mahdi Mahjoob",
+        avatar: "./ben-duchac-3fJOXw1RbPo-unsplash.jpg",
+        status: "active",
+        transactions: "$180",
+        email: "mahdi2004mh@gmail.com"
+    },
+]
+
+export { xAxisData, newMembers, transActions, userList }
