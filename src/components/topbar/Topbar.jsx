@@ -27,7 +27,7 @@ export default function Topbar(props) {
                         <SettingsIcon />
                     </div>
 
-                    <img className="image-person" src="logo192.png" alt="image" />
+                    <img className="image-person" src="./logo192.png" alt="image" />
                 </div>
             </div>
         </div>

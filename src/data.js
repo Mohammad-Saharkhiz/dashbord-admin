@@ -116,4 +116,46 @@ const userList = [
     },
 ]
 
-export { xAxisData, newMembers, transActions, userList }
+const products = [
+    {
+        id: 1,
+        title: "Asus",
+        avatar: "./ben-duchac-3fJOXw1RbPo-unsplash.jpg",
+        price: 890
+    },
+    {
+        id: 2,
+        title: "Acer",
+        avatar: "./ben-duchac-3fJOXw1RbPo-unsplash.jpg",
+        price: 584
+    },
+    {
+        id: 3,
+        title: "MSI",
+        avatar: "./ben-duchac-3fJOXw1RbPo-unsplash.jpg",
+        price: 484
+    },
+    {
+        id: 4,
+        title: "Mack book",
+        avatar: "./ben-duchac-3fJOXw1RbPo-unsplash.jpg",
+        price: 954
+    },
+]
+
+const productsData = [
+    {
+        name: "Jun",
+        sales: 7800
+    },
+    {
+        name: "Feb",
+        sales: 5000
+    },
+    {
+        name: "Mar",
+        sales: 9800
+    },
+]
+
+export { xAxisData, newMembers, transActions, userList, products, productsData }
